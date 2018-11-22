@@ -1,6 +1,19 @@
-// Colores
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i|Source+Sans+Pro:300,400,700');
 
-$fondoNegro: #000000; 
-$fondoBlanco: #ffffff; 
-$textoNegro: #000000; 
-$textoBlanco: #ffffff; 
+// $primaryColor: #F4f4f4;
+// $linksColor: #ff5400;
+// $secondaryColor: #222222;
+// $primaryBG: #222222;
+// $secondaryBG: #F4f4f4;
+// $bgColor: #121212;
+
+$primary: #ff5400;
+$secondary: #222222;
+$dark: #121212;
+$white: #F4F4F4;
+$black: #000000;
+
+
+
+$primaryFont: 'Source Sans Pro', sans-serif;
+$secondaryFont: 'PT Sans', sans-serif;

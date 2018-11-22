@@ -1,0 +1,35 @@
+@import 'config';
+@import 'bootstrap';
+
+body {
+    // background: $dark;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: $dark;
+}
+
+.backColor {
+    background-color: $secondary !important;
+}
+
+a {
+    span {
+        color: $primary !important;
+    }
+}
+
+.buscar {
+    width: 50% !important;
+    
+    input {
+        background: $dark !important;
+    }
+    button {
+        background-color: $dark !important;
+        color: rgba(255,255,255,.5);
+        &:hover {
+            background-color: $primary !important;
+        }
+    }
+}
+
